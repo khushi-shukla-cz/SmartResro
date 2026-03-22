@@ -1,0 +1,221 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.smartrestro"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.15.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\929a5edb6fa627be3d23c2fe8a1dff3b\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.smartrestro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.15.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\929a5edb6fa627be3d23c2fe8a1dff3b\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.15.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\929a5edb6fa627be3d23c2fe8a1dff3b\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.smartrestro.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.15.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\929a5edb6fa627be3d23c2fe8a1dff3b\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.15.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\929a5edb6fa627be3d23c2fe8a1dff3b\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:7:5-76:19
+21        android:allowBackup="true"
+21-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.15.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\929a5edb6fa627be3d23c2fe8a1dff3b\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:9:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:10:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:11:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:12:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.SmartRestro" >
+30-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:13:9-49
+31
+32        <!-- Splash Screen -->
+33        <activity
+33-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:16:9-24:20
+34            android:name="com.example.smartrestro.activities.SplashActivity"
+34-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:17:13-54
+35            android:exported="true"
+35-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:18:13-36
+36            android:theme="@style/Theme.SmartRestro.Splash" >
+36-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:19:13-60
+37            <intent-filter>
+37-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:20:13-23:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:21:17-69
+38-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:21:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:22:17-77
+40-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:22:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <!-- Home Screen -->
+45        <activity
+45-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:27:9-29:40
+46            android:name="com.example.smartrestro.activities.HomeActivity"
+46-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:28:13-52
+47            android:exported="false" />
+47-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:29:13-37
+48
+49        <!-- Menu Screen -->
+50        <activity
+50-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:32:9-34:40
+51            android:name="com.example.smartrestro.activities.MenuActivity"
+51-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:33:13-52
+52            android:exported="false" />
+52-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:34:13-37
+53
+54        <!-- Order Screen -->
+55        <activity
+55-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:37:9-39:40
+56            android:name="com.example.smartrestro.activities.OrderActivity"
+56-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:38:13-53
+57            android:exported="false" />
+57-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:39:13-37
+58
+59        <!-- My Orders / Cart Screen -->
+60        <activity
+60-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:42:9-44:40
+61            android:name="com.example.smartrestro.activities.MyOrdersActivity"
+61-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:43:13-56
+62            android:exported="false" />
+62-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:44:13-37
+63
+64        <!-- About Us Screen -->
+65        <activity
+65-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:47:9-49:40
+66            android:name="com.example.smartrestro.activities.AboutActivity"
+66-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:48:13-53
+67            android:exported="false" />
+67-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:49:13-37
+68
+69        <!-- Demo Lab Screen -->
+70        <activity
+70-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:52:9-54:40
+71            android:name="com.example.smartrestro.activities.DemoLabActivity"
+71-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:53:13-55
+72            android:exported="false" />
+72-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:54:13-37
+73
+74        <!-- Network Receiver: Monitors internet connectivity -->
+75        <receiver
+75-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:57:9-63:20
+76            android:name="com.example.smartrestro.receivers.NetworkReceiver"
+76-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:58:13-54
+77            android:exported="false" >
+77-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:59:13-37
+78            <intent-filter>
+78-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:60:13-62:29
+79                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+79-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:61:17-79
+79-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:61:25-76
+80            </intent-filter>
+81        </receiver>
+82
+83        <!-- Battery Receiver: Monitors battery status -->
+84        <receiver
+84-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:66:9-74:20
+85            android:name="com.example.smartrestro.receivers.BatteryReceiver"
+85-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:67:13-54
+86            android:exported="false" >
+86-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:68:13-37
+87            <intent-filter>
+87-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:69:13-73:29
+88                <action android:name="android.intent.action.BATTERY_LOW" />
+88-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:70:17-76
+88-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:70:25-73
+89                <action android:name="android.intent.action.BATTERY_OKAY" />
+89-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:71:17-77
+89-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:71:25-74
+90                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+90-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:72:17-87
+90-->C:\Users\Khushi\Downloads\SmartRestro\SmartRestro\app\src\main\AndroidManifest.xml:72:25-84
+91            </intent-filter>
+92        </receiver>
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\740b240940469fdcbde1740c65d02a52\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\740b240940469fdcbde1740c65d02a52\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+96            android:authorities="com.example.smartrestro.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\740b240940469fdcbde1740c65d02a52\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\740b240940469fdcbde1740c65d02a52\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\740b240940469fdcbde1740c65d02a52\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\740b240940469fdcbde1740c65d02a52\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\740b240940469fdcbde1740c65d02a52\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\4848d872187307e009414c5c73d53b21\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\4848d872187307e009414c5c73d53b21\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\4848d872187307e009414c5c73d53b21\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+104            <meta-data
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+105-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+106                android:value="androidx.startup" />
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+107        </provider>
+108
+109        <receiver
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+110            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+111            android:directBootAware="false"
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+112            android:enabled="true"
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+113            android:exported="true"
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+114            android:permission="android.permission.DUMP" >
+114-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+116                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+116-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+119                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+119-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+122                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+123            </intent-filter>
+124            <intent-filter>
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+125                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Khushi\.gradle\caches\8.9\transforms\51e174847893371f430ed1a6d219ec7b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+126            </intent-filter>
+127        </receiver>
+128    </application>
+129
+130</manifest>

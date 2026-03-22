@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SmartRestro app logo: fork and knife inside a circular background -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- White circular background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,60 m-55,0 a55,55 0 1,0 110,0 a55,55 0 1,0 -110,0" />
+
+    <!-- Fork (left side) -->
+    <path
+        android:fillColor="#E8472A"
+        android:pathData="M44,25 L44,50 C44,53 47,55 50,55 L50,90 C50,92 52,93 54,93 C56,93 58,92 58,90 L58,55 C61,55 64,53 64,50 L64,25" />
+    <path
+        android:fillColor="#E8472A"
+        android:strokeColor="#E8472A"
+        android:strokeWidth="3"
+        android:pathData="M44,25 L44,40 M50,25 L50,40 M58,25 L58,40 M64,25 L64,40" />
+
+    <!-- Knife (right side) -->
+    <path
+        android:fillColor="#E8472A"
+        android:pathData="M72,25 C72,25 80,30 80,42 C80,48 76,52 72,53 L72,90 C72,92 70,93 68,93 C66,93 64,92 64,90 L64,25 Z" />
+
+</vector>

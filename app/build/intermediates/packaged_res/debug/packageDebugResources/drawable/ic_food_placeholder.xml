@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="140dp"
+    android:viewportWidth="200"
+    android:viewportHeight="140">
+    <path android:fillColor="#FFF3E0"
+        android:pathData="M0,0 L200,0 L200,140 L0,140 Z"/>
+    <!-- Plate -->
+    <path android:fillColor="#FFCCBC"
+        android:pathData="M100,70 m-40,0 a40,40 0 1,0 80,0 a40,40 0 1,0 -80,0"/>
+    <!-- Fork -->
+    <path android:fillColor="#E8472A" android:strokeWidth="2"
+        android:pathData="M70,45 L70,65 M74,45 L74,65 M78,45 L78,65 M70,65 L78,65 L74,85"/>
+    <!-- Knife -->
+    <path android:fillColor="#E8472A"
+        android:pathData="M122,45 C122,45 130,50 130,60 C130,65 126,68 122,69 L122,85 Z"/>
+</vector>

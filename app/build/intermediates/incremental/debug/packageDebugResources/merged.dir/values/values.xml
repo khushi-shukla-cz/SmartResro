@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF9800</color>
+    <color name="accent_dark">#F57C00</color>
+    <color name="background">#F5F5F5</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="error">#B00020</color>
+    <color name="error_light">#FFEBEE</color>
+    <color name="hero_end">#FF9800</color>
+    <color name="hero_start">#E8472A</color>
+    <color name="launcher_bg">#1FB8A7</color>
+    <color name="md_theme_light_background">#FFFBFF</color>
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_onBackground">#201A19</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_onPrimaryContainer">#3A0A00</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_onSurface">#201A19</color>
+    <color name="md_theme_light_primary">#E8472A</color>
+    <color name="md_theme_light_primaryContainer">#FFE8E4</color>
+    <color name="md_theme_light_secondary">#775651</color>
+    <color name="md_theme_light_surface">#FFFBFF</color>
+    <color name="primary">#E8472A</color>
+    <color name="primary_container">#FFE8E4</color>
+    <color name="primary_dark">#C73B22</color>
+    <color name="primary_light">#FF7055</color>
+    <color name="splash_end">#FF6B35</color>
+    <color name="splash_start">#E8472A</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F0F0F0</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#757575</color>
+    <dimen name="home_banner_height">260dp</dimen>
+    <dimen name="home_featured_height">200dp</dimen>
+    <dimen name="home_nav_button_height">72dp</dimen>
+    <dimen name="home_section_padding">16dp</dimen>
+    <dimen name="home_welcome_padding_top">22dp</dimen>
+    <integer name="menu_grid_span_count">2</integer>
+    <string name="about_description">SmartRestro was founded in 2018 with a simple mission: to bring the finest culinary experiences right to your doorstep.
+\n\nOur team of passionate chefs sources only the freshest, locally-grown ingredients to craft dishes that blend traditional flavours with modern presentation.
+\n\nWhether you\'re in the mood for a hearty pizza, a refreshing salad, or a decadent dessert, SmartRestro has something for every palate.
+\n\nWe believe food is more than sustenance — it\'s a celebration. Come join ours!</string>
+    <string name="addon_cheese">Extra Cheese (+₹30)</string>
+    <string name="addon_olives">Olives (+₹25)</string>
+    <string name="addon_sauce">Extra Sauce (+₹20)</string>
+    <string name="app_name">SmartRestro</string>
+    <string name="banner_desc">Restaurant hero banner image</string>
+    <string name="btn_about_us">About Us</string>
+    <string name="btn_my_orders">My Orders</string>
+    <string name="btn_place_order">Place Order</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_view_menu">View Menu</string>
+    <string name="contact_email">hello@smartrestro.com</string>
+    <string name="contact_location">123, Foodie Street, Bandra West, Mumbai – 400050</string>
+    <string name="contact_phone">+91 98765 43210</string>
+    <string name="empty_cart_subtitle">Browse our menu and add your favourite dishes!</string>
+    <string name="empty_cart_title">Your cart is empty</string>
+    <string name="home_tagline">Fresh food, delivered fast 🚀</string>
+    <string name="label_addons">Add-ons</string>
+    <string name="label_city">Delivery City</string>
+    <string name="label_quantity">Quantity</string>
+    <string name="label_size">Select Size</string>
+    <string name="restaurant_name">SmartRestro</string>
+    <string name="size_large">Large</string>
+    <string name="size_medium">Medium</string>
+    <string name="size_small">Small</string>
+    <string name="tagline">Taste the Difference</string>
+    <style name="Theme.SmartRestro" parent="Theme.Material3.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+
+        
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorAccent">@color/accent</item>
+
+        
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+
+        
+        <item name="android:statusBarColor">@color/primary_dark</item>
+
+        
+        <item name="colorError">@color/error</item>
+    </style>
+    <style name="Theme.SmartRestro.Splash" parent="Theme.SmartRestro">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/splash_start</item>
+    </style>
+</resources>

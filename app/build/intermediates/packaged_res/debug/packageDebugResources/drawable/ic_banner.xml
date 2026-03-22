@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hero banner illustration: decorative food icons on gradient -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="240dp"
+    android:viewportWidth="400"
+    android:viewportHeight="240">
+
+    <!-- Background gradient rect -->
+    <path
+        android:fillColor="#E8472A"
+        android:pathData="M0,0 L400,0 L400,240 L0,240 Z" />
+
+    <!-- Decorative circles -->
+    <path android:fillColor="#FF6B35" android:alpha="0.4"
+        android:pathData="M350,200 m-80,0 a80,80 0 1,0 160,0 a80,80 0 1,0 -160,0" />
+    <path android:fillColor="#FF9800" android:alpha="0.3"
+        android:pathData="M60,40 m-60,0 a60,60 0 1,0 120,0 a60,60 0 1,0 -120,0" />
+
+    <!-- Large fork icon (white) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:alpha="0.85"
+        android:pathData="M180,60 L180,100 C180,106 185,110 190,110 L190,170 C190,173 192,175 195,175 C198,175 200,173 200,170 L200,110 C205,110 210,106 210,100 L210,60" />
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:alpha="0.85"
+        android:fillColor="#00000000"
+        android:pathData="M180,60 L180,90 M190,60 L190,90 M200,60 L200,90 M210,60 L210,90" />
+
+    <!-- Large plate circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:alpha="0.15"
+        android:pathData="M260,120 m-50,0 a50,50 0 1,0 100,0 a50,50 0 1,0 -100,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:alpha="0.3"
+        android:pathData="M260,120 m-35,0 a35,35 0 1,0 70,0 a35,35 0 1,0 -70,0" />
+
+    <!-- Star sparkles -->
+    <path android:fillColor="#FFFFFF" android:alpha="0.6"
+        android:pathData="M100,150 L102,155 L107,155 L103,158 L105,163 L100,160 L95,163 L97,158 L93,155 L98,155 Z" />
+    <path android:fillColor="#FFFFFF" android:alpha="0.4"
+        android:pathData="M320,80 L321,83 L324,83 L322,85 L323,88 L320,86 L317,88 L318,85 L316,83 L319,83 Z" />
+
+</vector>

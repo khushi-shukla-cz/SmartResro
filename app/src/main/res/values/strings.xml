@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App identity -->
+    <string name="app_name">SmartRestro</string>
+    <string name="restaurant_name">SmartRestro</string>
+    <string name="tagline">Taste the Difference</string>
+    <string name="home_tagline">Fresh food, delivered fast 🚀</string>
+    <string name="banner_desc">Restaurant hero banner image</string>
+
+    <!-- Home screen button labels -->
+    <string name="btn_view_menu">View Menu</string>
+    <string name="btn_my_orders">My Orders</string>
+    <string name="btn_about_us">About Us</string>
+
+    <!-- Order screen labels -->
+    <string name="label_quantity">Quantity</string>
+    <string name="label_size">Select Size</string>
+    <string name="label_addons">Add-ons</string>
+    <string name="label_city">Delivery City</string>
+    <string name="btn_place_order">Place Order</string>
+    <string name="size_small">Small</string>
+    <string name="size_medium">Medium</string>
+    <string name="size_large">Large</string>
+    <string name="addon_cheese">Extra Cheese (+₹30)</string>
+    <string name="addon_sauce">Extra Sauce (+₹20)</string>
+    <string name="addon_olives">Olives (+₹25)</string>
+
+    <!-- My Orders screen -->
+    <string name="empty_cart_title">Your cart is empty</string>
+    <string name="empty_cart_subtitle">Browse our menu and add your favourite dishes!</string>
+    <string name="btn_remove">Remove</string>
+
+    <!-- About Us screen -->
+    <string name="about_description">SmartRestro was founded in 2018 with a simple mission: to bring the finest culinary experiences right to your doorstep.
+\n\nOur team of passionate chefs sources only the freshest, locally-grown ingredients to craft dishes that blend traditional flavours with modern presentation.
+\n\nWhether you\'re in the mood for a hearty pizza, a refreshing salad, or a decadent dessert, SmartRestro has something for every palate.
+\n\nWe believe food is more than sustenance — it\'s a celebration. Come join ours!</string>
+    <string name="contact_phone">+91 98765 43210</string>
+    <string name="contact_email">hello@smartrestro.com</string>
+    <string name="contact_location">123, Foodie Street, Bandra West, Mumbai – 400050</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="140dp"
+    android:viewportWidth="200"
+    android:viewportHeight="140">
+    <!-- Background -->
+    <path android:fillColor="#FFF3E0"
+        android:pathData="M0,0 L200,0 L200,140 L0,140 Z"/>
+    <!-- Decorative circle -->
+    <path android:fillColor="#FFCC80" android:alpha="0.3"
+        android:pathData="M100,70 m-50,0 a50,50 0 1,0 100,0 a50,50 0 1,0 -100,0"/>
+    <!-- Icon -->
+    <path android:fillColor="#E65100"
+        android:pathData="M100,38 C88,38 80,46 80,56 C80,62 83,67 88,70 L82,100 C82,104 86,107 90,107 L110,107 C114,107 118,104 118,100 L112,70 C117,67 120,62 120,56 C120,46 112,38 100,38 Z M90,50 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0 M110,50 m-6,0 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+</vector>

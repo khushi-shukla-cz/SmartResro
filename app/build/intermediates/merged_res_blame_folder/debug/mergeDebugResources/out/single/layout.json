@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.example.smartrestro.app-mergeDebugResources-34:/layout/activity_about.xml",
+        "source": "com.example.smartrestro.app-main-37:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.example.smartrestro.app-mergeDebugResources-34:/layout/activity_demo_lab.xml",
+        "source": "com.example.smartrestro.app-main-37:/layout/activity_demo_lab.xml"
+    },
+    {
+        "merged": "com.example.smartrestro.app-mergeDebugResources-34:/layout/item_order_card.xml",
+        "source": "com.example.smartrestro.app-main-37:/layout/item_order_card.xml"
+    },
+    {
+        "merged": "com.example.smartrestro.app-mergeDebugResources-34:/layout/activity_my_orders.xml",
+        "source": "com.example.smartrestro.app-main-37:/layout/activity_my_orders.xml"
+    },
+    {
+        "merged": "com.example.smartrestro.app-mergeDebugResources-34:/layout/activity_order.xml",
+        "source": "com.example.smartrestro.app-main-37:/layout/activity_order.xml"
+    },
+    {
+        "merged": "com.example.smartrestro.app-mergeDebugResources-34:/layout/activity_menu.xml",
+        "source": "com.example.smartrestro.app-main-37:/layout/activity_menu.xml"
+    },
+    {
+        "merged": "com.example.smartrestro.app-mergeDebugResources-34:/layout/item_menu_card.xml",
+        "source": "com.example.smartrestro.app-main-37:/layout/item_menu_card.xml"
+    },
+    {
+        "merged": "com.example.smartrestro.app-mergeDebugResources-34:/layout/activity_home.xml",
+        "source": "com.example.smartrestro.app-main-37:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.smartrestro.app-mergeDebugResources-34:/layout/activity_splash.xml",
+        "source": "com.example.smartrestro.app-main-37:/layout/activity_splash.xml"
+    }
+]

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_banner_height">320dp</dimen>
+    <dimen name="home_featured_height">240dp</dimen>
+    <dimen name="home_section_padding">24dp</dimen>
+    <dimen name="home_welcome_padding_top">28dp</dimen>
+    <dimen name="home_nav_button_height">80dp</dimen>
+</resources>
