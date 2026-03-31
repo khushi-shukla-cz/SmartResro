@@ -48,11 +48,6 @@
             android:name=".activities.AboutActivity"
             android:exported="false" />
 
-        <!-- Demo Lab Screen -->
-        <activity
-            android:name=".activities.DemoLabActivity"
-            android:exported="false" />
-
         <!-- Network Receiver: Monitors internet connectivity -->
         <receiver
             android:name=".receivers.NetworkReceiver"

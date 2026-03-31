@@ -217,10 +217,6 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, AboutActivity::class.java))
         }
 
-        // Navigate to DemoLabActivity when "Demo Lab" is clicked
-        binding.btnDemoLab.setOnClickListener {
-            startActivity(Intent(this, DemoLabActivity::class.java))
-        }
     }
 
     /**

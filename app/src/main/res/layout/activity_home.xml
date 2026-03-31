@@ -700,29 +700,6 @@
 
                 </com.google.android.material.card.MaterialCardView>
 
-                <!-- Demo Lab Button Card -->
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    app:cardCornerRadius="16dp"
-                    app:cardElevation="4dp"
-                    app:strokeColor="@color/divider"
-                    app:strokeWidth="1dp">
-
-                    <com.google.android.material.button.MaterialButton
-                        android:id="@+id/btnDemoLab"
-                        android:layout_width="match_parent"
-                        android:layout_height="@dimen/home_nav_button_height"
-                        android:text="🧪  Demo Lab"
-                        android:textSize="17sp"
-                        android:textStyle="bold"
-                        android:textColor="@android:color/white"
-                        android:background="@drawable/bg_btn_demo_lab"
-                        app:cornerRadius="16dp"
-                        style="@style/Widget.Material3.Button" />
-
-                </com.google.android.material.card.MaterialCardView>
-
             </LinearLayout>
 
         </LinearLayout>

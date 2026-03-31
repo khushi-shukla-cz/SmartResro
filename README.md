@@ -9,7 +9,7 @@ It includes a restaurant-style user flow from splash screen to menu browsing, or
 - **Home Screen** with:
   - Auto-flipping promo banners
   - Clickable food gallery with item info dialogs
-  - Navigation to Menu, My Orders, About, and Demo Lab
+  - Navigation to Menu, My Orders, and About
 - **Menu Screen** with a RecyclerView grid of food items
 - **Order Customization**:
   - Quantity selector
@@ -23,7 +23,6 @@ It includes a restaurant-style user flow from splash screen to menu browsing, or
   - Grand total + item count
   - Empty cart state
 - **About Screen** with tappable phone, email, and map intents
-- **Demo Lab Screen** (Spinner + RadioGroup + CheckBox styling experiment)
 - **System Broadcast Receivers**:
   - Network connectivity status (Snackbar)
   - Battery/power status alerts (Toast)
@@ -44,7 +43,7 @@ It includes a restaurant-style user flow from splash screen to menu browsing, or
 ```text
 app/src/main/
 ├── java/com/example/smartrestro/
-│   ├── activities/      # Splash, Home, Menu, Order, MyOrders, About, DemoLab
+│   ├── activities/      # Splash, Home, Menu, Order, MyOrders, About
 │   ├── adapters/        # RecyclerView adapters
 │   ├── models/          # FoodItem, OrderItem
 │   ├── receivers/       # NetworkReceiver, BatteryReceiver
@@ -90,6 +89,16 @@ To install on connected device/emulator:
 ```bat
 gradlew.bat installDebug
 ```
+
+### Quick Verify
+
+Use this to quickly confirm the project setup is healthy:
+
+```bat
+gradlew.bat clean assembleDebug test
+```
+
+If this succeeds, Gradle, SDK, and test dependencies are all configured correctly.
 
 ## 📶 Permissions Used
 
